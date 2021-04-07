@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1617741655 source:c:\users\jedrz\desktop\inf\sortowanie\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<chrono>
+	<string>
+	<vector>
+	<time.h>
+	<cmath>
+
