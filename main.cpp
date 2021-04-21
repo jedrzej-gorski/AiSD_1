@@ -32,8 +32,7 @@ vector<int> generateM(int length) {
     vector<int> makeList;
     int upperBound = length * 10;
     for (int i = 0; i < length; i++) {
-        makeList.push_back(rand() % upperBound + 1);
-        upperBound = makeList[i];
+        makeList.push_back(rand() % (length * 10) + 1);
     }
     sort(makeList.begin(), makeList.end());
     reverse(makeList.begin(), makeList.end());
